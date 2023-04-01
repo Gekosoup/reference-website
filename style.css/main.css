@@ -1,76 +1,30 @@
 html {
-  /* Try to load Georgia, if it doesn't exist load another serif font */
-  font-family: Georgia, serif; 
+  box-sizing: border-box;
+  background-color: #fff;
+  color: #222;
+  font-family: 'Roboto', sans-serif;
+  font-size: 100;
+  line-height: 1.4;
 }
 
-  /* When specifying a font family that has a space in its name we must surround it with quotes: */
-html {
-  font-family: "comic sans", sans-serif;
+nav a {
+  display: inline-block;
+  padding: .5em .75em;
+  border-radius: 8px;
 }
 
-/* The above property will change all the text in the website to Georgia—assuming it’s installed on the computer—because we’ve targeted the html element.
-
-We really can’t guarantee that Georgia will be installed on the person’s computer, so it’s a good idea to provide a stylistic backup: serif, sans-serif, monospace, cursive. */
-
-
-
-  h1 {
-    font-size: 2rem;
-    font-weight: normal;
-    font-style: italic;
-    line-height: 1.4;
+nav a:link, nav a:visited {
+  background-color: blue;
+  color: white; 
+  border: 2px solid white;
+  text-decoration: none;
 }
 
-html {
-  /* font: font-style (optional) font-weight font-size/line-height font-family; */
-  font-style: normal;
-  font-weight: normal;
-  font-size: 1rem;
-  font-family: Georgia, serif;
-  font: normal 1rem/1.5 Georgia, serif;
+nav a:hover, nav a:focus {
+  background-color: white;
+  color: blue;
+  border: 2px solid blue;
 }
-
-img {
-  width: 100%;
-}
-
-p.font-properties {
-  font-family: sans-serif;
-  font-weight: bold;
-}
-
-p.text-decorations {
-  text-transform: underline;
-  text-align: center;
-  text-shadow: 4px 4px 5px grey;
-}
-
-code {
-  font-weight: bold;
-}
-
-dl span {
-  font-weight: bold;
-}
-
-dt {
-  font-weight: bold;
-  font-size: 1.25rem;
-  margin-top: .75rem;
-  text-decoration: underline;
-}
-
-dd {
-  margin: 0;
-}
-
-section div {
-  margin: 3em 0;
-}
-
-
-
-
 
 
 
