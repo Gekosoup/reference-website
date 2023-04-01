@@ -1,0 +1,183 @@
+a:link{
+  color: hotpink;
+  
+  text-decoration: none;
+}
+
+/* Links have a bunch of states that we can also style when a user interacts: */
+
+/* unvisited link - for styling the default link state */
+a:unvisited {
+  color: limegreen;
+}
+
+/* visited link - for styling the link after it’s been visited by the user*/
+a:visited {
+  color: limegreen;
+}
+
+/* mouse over link - for styling the link when the mouse is sitting over it */
+a:hover {
+  color: orange;
+}
+
+/* focu link - for styling the link when the keyboard has tab-focused it */
+a:focus {
+  color: blue;
+}
+
+/* selected link - for styling the link when the mouse button is pressed down on it */
+a:active {
+  color: purple;
+}
+
+/* NOTE: a:link is for not visited, a:visited is for visited, and just a applies to both. */
+
+
+
+/* Additional examples: */
+
+a.one:link {
+  color: red;
+}
+
+a.one:visited {
+  color: blue;
+}
+
+a.one:hover {
+  color: red;
+}
+
+a.two:link {
+  color: orange;
+}
+
+a.two:visited {
+  color: orange;
+}
+
+a.two:hover {
+font-size: 2rem;
+}
+
+a.three:link {
+color: green
+}
+
+a.four:link {
+color: blue
+}
+
+a.four:hover {
+font-family: monospace;
+}
+
+a.five {
+color: purple
+}
+
+/* Link button: */
+a.button:link, 
+a.button:visited{
+  border: 2px solid green;
+  color: black;
+  background-color: white;
+  padding: 10px 20px;
+}
+
+a.button:hover, 
+a.button:active,
+a.button:focus {
+  background-color:green;
+  color:white;
+}
+
+
+html {
+  /* Try to load Georgia, if it doesn't exist load another serif font */
+  font-family: Georgia, serif; 
+}
+
+  /* When specifying a font family that has a space in its name we must surround it with quotes: */
+html {
+  font-family: "comic sans", sans-serif;
+}
+
+/* The above property will change all the text in the website to Georgia—assuming it’s installed on the computer—because we’ve targeted the html element.
+
+We really can’t guarantee that Georgia will be installed on the person’s computer, so it’s a good idea to provide a stylistic backup: serif, sans-serif, monospace, cursive. */
+
+
+
+  h1 {
+    font-size: 2rem;
+    font-weight: normal;
+    font-style: italic;
+    line-height: 1.4;
+}
+
+html {
+  /* font: font-style (optional) font-weight font-size/line-height font-family; */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  font-family: Georgia, serif;
+  font: normal 1rem/1.5 Georgia, serif;
+}
+
+img {
+  width: 100%;
+}
+
+p.font-properties {
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+p.text-decorations {
+  text-transform: underline;
+  text-align: center;
+  text-shadow: 4px 4px 5px grey;
+}
+
+code {
+  font-weight: bold;
+}
+
+dl span {
+  font-weight: bold;
+}
+
+dt {
+  font-weight: bold;
+  font-size: 1.25rem;
+  margin-top: .75rem;
+  text-decoration: underline;
+}
+
+dd {
+  margin: 0;
+}
+
+section div {
+  margin: 3em 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
