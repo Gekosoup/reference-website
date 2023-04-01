@@ -1,3 +1,49 @@
+html {
+  box-sizing: border-box;
+  background-color: #fff;
+  color: #222;
+  font-family: 'Roboto', sans-serif;
+  font-size: 100;
+  line-height: 1.4;
+}
+
+header {
+  padding: 1.5em 0;
+}
+header nav {
+  text-align: center;
+}
+
+header nav ul {
+  display: inline-block;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+header nav ul li {
+  display: inline;
+}
+
+nav a {
+  display: inline-block;
+  padding: .5em .75em;
+  border-radius: 8px;
+}
+
+nav a:link, nav a:visited {
+  background-color: blueviolet;
+  color: white; 
+  border: 2px solid white;
+  text-decoration: none;
+}
+
+nav a:hover, nav a:focus {
+  background-color: white;
+  color: blueviolet;
+  border: 2px solid blueviolet;
+}
+
+
 a:link{
   color: hotpink;
   
