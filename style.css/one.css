@@ -1,15 +1,35 @@
 html {
   box-sizing: border-box;
-  background-color: #fff;
-  color: #222;
+  background-color: lightsteelblue;
+  color: white;
   font-family: 'Roboto', sans-serif;
   font-size: 100;
   line-height: 1.4;
 }
 
+h1 {
+  font-family: "lincoln-electric-regular", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 300;
+}
+
+h2 {
+  font-style: normal;
+  text-transform: uppercase;
+  border-bottom: 5px solid lavender;
+}
+
+.profile-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 150%;
+}
+
 header {
   padding: 1.5em 0;
 }
+
 header nav {
   text-align: center;
 }
@@ -31,7 +51,7 @@ nav a {
 }
 
 nav a:link, nav a:visited {
-  background-color: blueviolet;
+  background-color: lightsteelblue;
   color: white; 
   border: 2px solid white;
   text-decoration: none;
@@ -39,12 +59,8 @@ nav a:link, nav a:visited {
 
 nav a:hover, nav a:focus {
   background-color: white;
-  color: blueviolet;
-  border: 2px solid blueviolet;
-}
-
-img {
-  width: 100%;
+  color: lightsteelblue;
+  border: 2px solid lightsteelblue;
 }
 
 p.font-properties {
