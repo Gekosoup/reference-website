@@ -75,7 +75,22 @@ nav a:hover, nav a:focus {
 .skater img {
   width: 260px;
   float: left;
-  margin-right: 8em;
+  margin-right: 2em;
+}
+
+.box {
+  padding: 2em 0;
+  display: inline-block;
+}
+ 
+.box + p {
+  clear: left;
+}
+
+.box img {
+  width: 260px;
+  float: left;
+  margin-right: 2em;
 }
 
 
