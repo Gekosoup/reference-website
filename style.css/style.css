@@ -14,6 +14,12 @@ h1 {
   font-size: 300;
 }
 
+h2 {
+  font-style: normal;
+  text-transform: uppercase;
+  border-bottom: 5px solid lavender;
+}
+
 .profile-pic {
   width: 100px;
   height: 100px;
@@ -64,16 +70,10 @@ a:link{
 }
 
 /* Links have a bunch of states that we can also style when a user interacts: */
-
 /* unvisited link - for styling the default link state */
-a:unvisited {
-  color: limegreen;
-}
 
 /* visited link - for styling the link after it’s been visited by the user*/
-a:visited {
-  color: limegreen;
-}
+
 
 /* mouse over link - for styling the link when the mouse is sitting over it */
 a:hover {
